@@ -1,30 +1,114 @@
+img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  background-color: #ffffff;
+}
 
+
+header {
+  background-color: #333;
+  color: #fff;
   text-align: center;
+  padding: 20px 0;
 }
-ul {
-  list-style-position: inside;
-}
+
 h1 {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
-  background-color: aqua;
-  padding: 15;
-
-  background-color: linear-gradient(to right, #007bff, #28a745);
-  padding: 5%;
-  border-radius: 20px;
+  margin: 0;
 }
-.container {
+
+.contato {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.coluna-esquerda, .coluna-direita {
-  flex-basis: 50%;
-  align-items: flex-start;
+.contato li {
+  margin:   10px;
+}
+
+.contato a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+h2 {
+  margin: 0 0 15px;
+}
+
+
+
+.habilidades-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 20px;
+}
+
+.habilidades-lista li {
+  margin-bottom: 10px;
+}
+
+
+.experiencia-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experiencia-lista li {
+  
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 5px 0 0;
+}
+
+
+.educacao-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.educacao-lista li {
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
 }
